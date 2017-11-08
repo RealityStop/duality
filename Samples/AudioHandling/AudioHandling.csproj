@@ -3,7 +3,7 @@
   <PropertyGroup>
     <DualityPackageExcludeParentElement />
     <StartAction>Program</StartAction>
-    <StartProgram>$(SolutionDir)Build\Output\DualityEditor.exe</StartProgram>
+    <StartProgram>$(SolutionDir)..\src\Duality\DualityEditor.exe</StartProgram>
     <StartWorkingDirectory>..\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
