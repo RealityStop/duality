@@ -36,10 +36,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Duality">
-      <HintPath>..\..\..\..\src\Duality\Duality.dll</HintPath>
+      <HintPath>..\..\..\..\src\Duality.dll</HintPath>
     </Reference>
     <Reference Include="DualityPrimitives">
-      <HintPath>..\..\..\..\src\Duality\DualityPrimitives.dll</HintPath>
+      <HintPath>..\..\..\..\src\DualityPrimitives.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

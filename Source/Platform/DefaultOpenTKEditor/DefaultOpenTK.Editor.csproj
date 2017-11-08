@@ -83,11 +83,11 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AggregateOutput" BeforeTargets="AfterBuild">
   
-    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(SolutionDir)..\src\Duality\Plugins\" />
-    <Copy SourceFiles="$(OutputPath)$(AssemblyName).pdb" DestinationFolder="$(SolutionDir)..\src\Duality\Plugins\" />
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(SolutionDir)..\src\Plugins\" />
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).pdb" DestinationFolder="$(SolutionDir)..\src\Plugins\" />
 	
-    <Copy SourceFiles="$(OutputPath)OpenTK.GLControl.dll" DestinationFolder="$(SolutionDir)..\src\Duality\" />
-    <Copy SourceFiles="$(OutputPath)OpenTK.GLControl.xml" DestinationFolder="$(SolutionDir)..\src\Duality\" />
+    <Copy SourceFiles="$(OutputPath)OpenTK.GLControl.dll" DestinationFolder="$(SolutionDir)..\src\" />
+    <Copy SourceFiles="$(OutputPath)OpenTK.GLControl.xml" DestinationFolder="$(SolutionDir)..\src\" />
 	
   </Target>
 </Project>
